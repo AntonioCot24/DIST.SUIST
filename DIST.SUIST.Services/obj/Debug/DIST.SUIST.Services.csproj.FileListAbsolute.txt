@@ -1,0 +1,7 @@
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.Services\bin\DIST.SUIST.Services.dll.config
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.Services\bin\DIST.SUIST.Services.dll
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.Services\bin\DIST.SUIST.Services.pdb
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.Services\obj\Debug\DIST.SUIST.Services.csprojResolveAssemblyReference.cache
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.Services\obj\Debug\DIST.SUIST.Services.csproj.CoreCompileInputs.cache
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.Services\obj\Debug\DIST.SUIST.Services.dll
+D:\Antonio\ProyectoUPC\DIST.SUIST\DIST.SUIST.Services\obj\Debug\DIST.SUIST.Services.pdb
