@@ -13,7 +13,7 @@
     <title>SCT</title>
 
     <!-- Core CSS -->
-    <link href="<%= Page.ResolveUrl("~/Content/bootstrap.css") %>" rel="stylesheet" type="text/css" />
+    <link href="<%= Page.ResolveUrl("~/Content/bootstrap.min.css") %>" rel="stylesheet" type="text/css" />
     <link href="<%= Page.ResolveUrl("~/Content/font-awesome.min.css") %>" rel="stylesheet" type="text/css" />
     <link href="<%= Page.ResolveUrl("~/Content/style_v2.css") %>" rel="stylesheet" type="text/css" />
     <link href="<%= Page.ResolveUrl("~/Content/layout.css") %>" rel="stylesheet" type="text/css" />
@@ -31,8 +31,11 @@
     <link href="<%= Page.ResolveUrl("~/Content/fancybox/jquery.fancybox.css") %>" rel="stylesheet" type="text/css" />
     <link href="<%= Page.ResolveUrl("~/Content/jquery.bootstrap-touchspin.min.css") %>" rel="stylesheet" type="text/css" />
     <link href="<%= Page.ResolveUrl("~/Content/chosen.bootstrap.css") %>" rel="stylesheet" type="text/css" />
-    <link href="<%= Page.ResolveUrl("~/Content/dataTables.bootstrap.min.css") %>" rel="stylesheet" type="text/css" />
-    <link href="<%= Page.ResolveUrl("~/Content/jquery.weekcalendar.css") %>" rel="stylesheet" type="text/css" />
+    <link href="<%= Page.ResolveUrl("~/Content/DataTables/css/dataTables.bootstrap.min.css") %>" rel="stylesheet" type="text/css" />
+    <link href="<%= Page.ResolveUrl("~/Content/DataTables/css/buttons.bootstrap.min.css") %>" rel="stylesheet" type="text/css" />
+    <link href="<%= Page.ResolveUrl("~/Content/DataTables/css/colReorder.bootstrap.min.css") %>" rel="stylesheet" type="text/css" />
+    <link href="<%= Page.ResolveUrl("~/Content/DataTables/css/fixedColumns.bootstrap.min.css") %>" rel="stylesheet" type="text/css" />
+    <link href="<%= Page.ResolveUrl("~/Content/DataTables/css/fixedHeader.bootstrap.min.css") %>" rel="stylesheet" type="text/css" />
     <link href="<%= Page.ResolveUrl("~/Content/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css") %>" rel="stylesheet" type="text/css" />
 
     <!--[if lt IE 9]>
@@ -41,7 +44,7 @@
 
     <!-- Core JS -->
     <script src="<%= Page.ResolveUrl("~/Scripts/jquery-3.2.1.min.js") %>" type="text/javascript"></script>
-    <script src="<%= Page.ResolveUrl("~/Scripts/jquery-1.12.1.min.js") %>" type="text/javascript"></script>
+    <script src="<%= Page.ResolveUrl("~/Scripts/jquery-ui-1.12.1.js") %>" type="text/javascript"></script>
     <script src="<%= Page.ResolveUrl("~/Scripts/jquery.center.min.js") %>" type="text/javascript"></script>
     <script src="<%= Page.ResolveUrl("~/Scripts/bootstrap.min.js") %>" type="text/javascript"></script>
     <script src="<%= Page.ResolveUrl("~/Scripts/devoops.js") %>" type="text/javascript"></script>
@@ -58,9 +61,8 @@
     <script src="<%= Page.ResolveUrl("~/Scripts/validator/jquery.validationEngine-es.js") %>" type="text/javascript"></script>
     <script src="<%= Page.ResolveUrl("~/Scripts/validator/jquery.validationEngine.min.js") %>" type="text/javascript"></script>
     <script src="<%= Page.ResolveUrl("~/Scripts/utils/date.validation.js") %>" type="text/javascript"></script>
-    <script src="<%= Page.ResolveUrl("~/Scripts/bootstrap-dialog.min.js") %>" type="text/javascript"></script>
+    <script src="<%= Page.ResolveUrl("~/Scripts/bootstrap-dialog.js") %>" type="text/javascript"></script>
     <script src="<%= Page.ResolveUrl("~/Scripts/jquery.bootstrap-touchspin.min.js") %>" type="text/javascript"></script>
-    <script src="<%= Page.ResolveUrl("~/Scripts/jquery.dataTables.min.js") %>" type="text/javascript"></script>
     <script src="<%= Page.ResolveUrl("~/Scripts/DataTables/jquery.dataTables.min.js") %>" type="text/javascript"></script>
     <script src="<%= Page.ResolveUrl("~/Scripts/DataTables/dataTables.bootstrap.min.js") %>" type="text/javascript"></script>
     <script src="<%= Page.ResolveUrl("~/Scripts/DataTables/dataTables.fixedColumns.min.js") %>" type="text/javascript"></script>
@@ -73,8 +75,7 @@
     <script src="<%= Page.ResolveUrl("~/Scripts/jquery.print.js") %>" type="text/javascript"></script>
     <script src="<%= Page.ResolveUrl("~/Scripts/chosen.jquery.min.js") %>" type="text/javascript"></script>
     <script src="<%= Page.ResolveUrl("~/Scripts/chosen.proto.min.js") %>" type="text/javascript"></script>
-    <script src="<%= Page.ResolveUrl("~/Scripts/jquery.weekcalendar.js") %>" type="text/javascript"></script>
-    <script src="<%= Page.ResolveUrl("~/Scripts/bootstrap-colorpicker.min.js") %>" type="text/javascript"></script>
+    <script src="<%= Page.ResolveUrl("~/Scripts/bootstrap-colorpicker.js") %>" type="text/javascript"></script>
 
     <script src="<%= Page.ResolveUrl("~/FormsScripts/jsTemplate.js") %>"></script>
     <script src="<%= Page.ResolveUrl("~/FormsScripts/jsModulo.js") %>"></script>

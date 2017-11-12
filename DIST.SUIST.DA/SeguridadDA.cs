@@ -40,7 +40,7 @@ namespace DIST.SUIST.DA
                                     if (DBNull.Value != oRead.GetValue(oRead.GetOrdinal("USU_MASTERADMIN"))) objUsuarioBE.MasterAdmin = (bool)oRead.GetValue(oRead.GetOrdinal("USU_MASTERADMIN"));                                    
                                     if (DBNull.Value != oRead.GetValue(oRead.GetOrdinal("PER_IDPERFIL"))) objPerfilBE.IdPerfil = (int)oRead.GetValue(oRead.GetOrdinal("PER_IDPERFIL"));
                                     if (DBNull.Value != oRead.GetValue(oRead.GetOrdinal("PER_DENOMINACION"))) objPerfilBE.Denominacion = (string)oRead.GetValue(oRead.GetOrdinal("PER_DENOMINACION"));
-                                    if (DBNull.Value != oRead.GetValue(oRead.GetOrdinal("EMP_IDEMPRESA"))) objUsuarioBE.IdEmpresa = (int)oRead.GetValue(oRead.GetOrdinal("EMP_IDEMPRESA"));
+                                    //if (DBNull.Value != oRead.GetValue(oRead.GetOrdinal("EMP_IDEMPRESA"))) objUsuarioBE.IdEmpresa = (int)oRead.GetValue(oRead.GetOrdinal("EMP_IDEMPRESA"));
                                 }
                                 oRead.Close();
                             }
