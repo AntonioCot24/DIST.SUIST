@@ -148,7 +148,7 @@ namespace DIST.SUIST.DA
                     cmd.Parameters.Add(UtilDA.SetParameter("@USU_IDUSUARIO", SqlDbType.Int, ParameterDirection.Input, objGasto.IdUsuario, !(objGasto.IdUsuario > 0)));
                     cmd.Parameters.Add(UtilDA.SetParameter("@GAS_FECHA", SqlDbType.DateTime, ParameterDirection.Input, objGasto.Fecha, (objGasto.Fecha == null)));
                     cmd.Parameters.Add(UtilDA.SetParameter("@GAS_GLOSA", SqlDbType.VarChar, ParameterDirection.Input, objGasto.Glosa, string.IsNullOrEmpty(objGasto.Glosa)));
-                    cmd.Parameters.Add(UtilDA.SetParameter("@GAS_MONTO", SqlDbType.Double, ParameterDirection.Input, objGasto.Monto, !(objGasto.Monto > 0)));
+                    cmd.Parameters.Add(UtilDA.SetParameter("@GAS_MONTO", SqlDbType.Float, ParameterDirection.Input, objGasto.Monto, !(objGasto.Monto > 0)));
                     cmd.Parameters.Add(UtilDA.SetParameter("@USU_USUARIO", SqlDbType.VarChar, ParameterDirection.Input, objGasto.Auditoria.Usuario, string.IsNullOrEmpty(objGasto.Auditoria.Usuario)));
 
                     //Paremetros de salida

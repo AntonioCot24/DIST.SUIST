@@ -16,7 +16,7 @@ namespace DIST.SUIST.DA
             try
             {
                 using (SqlCommand cmd = new SqlCommand())
-                {
+                {                    
                     cmd.CommandText = "SUIT_SEG_SP_VALIDARUSUARIO";
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.Add(UtilDA.SetParameter("@USU_EMAIL", SqlDbType.VarChar, ParameterDirection.Input, objUsuario.Usuario, string.IsNullOrEmpty(objUsuario.Usuario)));

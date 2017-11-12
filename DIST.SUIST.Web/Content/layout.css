@@ -1,0 +1,321 @@
+﻿body {
+}
+
+textarea {
+    /*overflow:hidden;*/
+    resize: none;
+}
+
+#message {
+    display: none;
+    text-align: center;
+    font-size: 11px;
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+    #message.normal {
+        left: 45%;
+        width: 350px;
+        position: fixed;
+        top: 50%;
+        z-index: 5000;
+    }
+
+    #message.modal {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+
+#messageSearch {
+    display: none;
+    text-align: center;
+    font-size: 11px;
+    color: #fff;
+    width: 300px;
+    overflow: hidden;
+    background-color: #C43B35;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#message.error {
+    background-color: #C43B35;
+}
+
+#message.ok {
+    background-color: #68B243;
+}
+
+#messages {
+    display: none;
+    text-align: center;
+    font-size: 11px;
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+    #messages.normal {
+        left: 43%;
+        width: 200px;
+        position: fixed;
+        top: 50%;
+    }
+
+    #messages.modal {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+
+    #messages.error {
+        background-color: #C43B35;
+    }
+
+    #messages.ok {
+        background-color: #68B243;
+    }
+
+#messagesModal {
+    display: none;
+    text-align: center;
+    font-size: 11px;
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+    #messagesModal.normal {
+        left: 43%;
+        width: 200px;
+        position: fixed;
+        top: 50%;
+    }
+
+    #messagesModal.modal {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+
+    #messagesModal.error {
+        background-color: #C43B35;
+    }
+
+    #messagesModal.ok {
+        background-color: #68B243;
+    }
+/* ERROR */
+.formError .formErrorContent {
+    min-width: 120px !important;
+}
+
+/*modal*/
+.headModal {
+    background-color: #DF5206;
+    color: #fff;
+}
+
+.bodyModal {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+/* Overlay */
+#modal-overlay {
+    background-color: #DAD7EC;
+    cursor: not-allowed;
+}
+/*wait*/
+/* Container */
+#modal-container {
+    background-color: #fff;
+    border: 4px solid #0C3F81;
+    padding: 12px;
+    min-height: 150px;
+    min-width: 350px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px\0/;
+    behavior: url(PIE.htc);
+}
+
+    #modal-container a.modalCloseImg {
+        z-index: 9999;
+        background: url(../../images/icons/x_over.png) no-repeat;
+        width: 25px;
+        height: 29px;
+        display: inline;
+        z-index: 3200;
+        position: absolute;
+        top: -15px;
+        right: -16px;
+        cursor: pointer;
+    }
+
+.simplemodal-wrap {
+    overflow: hidden;
+}
+
+.modal-dialog {
+    padding-top: 10%;
+}
+
+.print-area p {
+    font-family: Calibri;
+    font-size: 12px;
+}
+
+    .print-area p span {
+        font-family: Calibri;
+        font-size: 12px;
+    }
+
+.print-area ol li {
+    font-family: Calibri;
+    font-size: 12px;
+}
+
+.print-area span {
+    font-family: Calibri;
+    font-size: 12px;
+}
+
+.fix-padding-all {
+    padding: 0px 0px 0px 0px;
+}
+
+.fix-padding-top {
+    padding: 0px;
+}
+
+.fix-padding-bottom {
+    padding-bottom: 0px;
+}
+
+.fix-padding-left {
+    padding-left: 0px;
+}
+
+.fix-padding-right {
+    padding-right: 0px;
+}
+
+@media all {
+    div.saltopagina {
+        display: none;
+    }
+}
+
+@media print {
+    div.saltopagina {
+        display: block;
+        page-break-before: always;
+    }
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+    .btn-file input[type=file] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        font-size: 100px;
+        text-align: right;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        outline: none;
+        background: white;
+        cursor: inherit;
+        display: block;
+    }
+
+
+.radio, .checkbox, .radio-inline, .checkbox-inline {
+    position: relative;
+}
+
+    .radio label, .checkbox label, .radio-inline label, .checkbox-inline label {
+        font-weight: normal;
+        cursor: pointer;
+        padding-left: 8px;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s;
+    }
+
+    .radio + .radio, .checkbox + .checkbox {
+        margin-top: 10px;
+    }
+
+    .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+        position: absolute;
+        clip: rect(0, 0, 0, 0);
+    }
+
+    .checkbox i, .checkbox-inline i, .radio i, .radio-inline i {
+        cursor: pointer;
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 24px;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s;
+    }
+
+        .checkbox i.small, .checkbox-inline i.small, .radio i.small, .radio-inline i.small {
+            font-size: 18px;
+            top: 2px;
+        }
+
+    .checkbox input[type=checkbox]:checked + i:before, .checkbox-inline input[type=checkbox]:checked + i:before {
+        content: "\f046";
+    }
+
+    .radio input[type=radio]:checked + i:before, .radio-inline input[type=radio]:checked + i:before {
+        content: "\f192";
+    }
+
+.ds-btn li {
+    list-style: none;
+    float: left;
+    padding: 5px;
+}
+
+    .ds-btn li a span {
+        padding-top: 8px;
+        padding-right: 5px;
+        width: 312px;
+        display: inline-block;
+        text-align: left;
+        font-size: 8pt;
+    }
+
+        .ds-btn li a span small {
+            width: 100px;
+            display: inline-block;
+            text-align: left;
+        }

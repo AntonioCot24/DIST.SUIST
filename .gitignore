@@ -1,0 +1,11 @@
+/DIST.SUIST.BE/obj
+/DIST.SUIST.BE/bin
+/DIST.SUIST.BL/obj
+/DIST.SUIST.DA/obj
+/DIST.SUIST.DA/bin
+/DIST.SUIST.Services/bin
+/DIST.SUIST.Web/bin
+/DIST.SUIST.Web/obj
+*.suo
+/DIST.SUIST.BL/bin/Debug
+/.vs/DIST.SUIST/v15/Server/sqlite3

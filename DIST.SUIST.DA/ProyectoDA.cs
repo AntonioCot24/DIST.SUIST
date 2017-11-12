@@ -192,7 +192,7 @@ namespace DIST.SUIST.DA
                     cmd.Parameters.Add(UtilDA.SetParameter("@PRY_IDPROYECTO", SqlDbType.Int, ParameterDirection.Input, objProyecto.IdProyecto, !(objProyecto.IdProyecto > 0)));
                     cmd.Parameters.Add(UtilDA.SetParameter("@CLI_IDCLIENTE", SqlDbType.Int, ParameterDirection.Input, objProyecto.Cliente.IdCliente, !(objProyecto.Cliente.IdCliente > 0)));
                     cmd.Parameters.Add(UtilDA.SetParameter("@PRY_NOMBRE", SqlDbType.VarChar, ParameterDirection.Input, objProyecto.NombreProyecto, string.IsNullOrEmpty(objProyecto.NombreProyecto)));
-                    cmd.Parameters.Add(UtilDA.SetParameter("@PRY_PRECIO", SqlDbType.Double, ParameterDirection.Input, objProyecto.Precio, !(objProyecto.Precio > 0)));
+                    cmd.Parameters.Add(UtilDA.SetParameter("@PRY_PRECIO", SqlDbType.Float, ParameterDirection.Input, objProyecto.Precio, !(objProyecto.Precio > 0)));
                     cmd.Parameters.Add(UtilDA.SetParameter("@USU_USUARIO", SqlDbType.VarChar, ParameterDirection.Input, objProyecto.Auditoria.Usuario, string.IsNullOrEmpty(objProyecto.Auditoria.Usuario)));
 
                     //Paremetros de salida

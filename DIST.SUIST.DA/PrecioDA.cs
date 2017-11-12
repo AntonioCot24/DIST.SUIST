@@ -82,7 +82,7 @@ namespace DIST.SUIST.DA
                     cmd.Parameters.Add(UtilDA.SetParameter("@PRE_IDPRECIO", SqlDbType.Int, ParameterDirection.Input, objPrecio.IdPrecio, !(objPrecio.IdPrecio > 0)));
                     cmd.Parameters.Add(UtilDA.SetParameter("@CLI_IDCLIENTE", SqlDbType.Int, ParameterDirection.Input, objPrecio.Cliente.IdCliente, !(objPrecio.Cliente.IdCliente > 0)));
                     cmd.Parameters.Add(UtilDA.SetParameter("@TAC_IDTIPOACTIVIDAD", SqlDbType.Int, ParameterDirection.Input, objPrecio.TipoActividad.IdTipoActividad, !(objPrecio.TipoActividad.IdTipoActividad > 0)));
-                    cmd.Parameters.Add(UtilDA.SetParameter("@PRE_MONTO", SqlDbType.Double, ParameterDirection.Input, objPrecio.Monto, !(objPrecio.Monto > 0)));
+                    cmd.Parameters.Add(UtilDA.SetParameter("@PRE_MONTO", SqlDbType.Float, ParameterDirection.Input, objPrecio.Monto, !(objPrecio.Monto > 0)));
                     cmd.Parameters.Add(UtilDA.SetParameter("@USU_USUARIO", SqlDbType.VarChar, ParameterDirection.Input, objPrecio.Auditoria.Usuario, string.IsNullOrEmpty(objPrecio.Auditoria.Usuario)));
 
                     //Paremetros de salida

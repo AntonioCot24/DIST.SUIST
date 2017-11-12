@@ -21,6 +21,7 @@ namespace DIST.SUIST.BE
         public DateTime? ContratoFin { get; set; }
         public string Logo { get; set; }
         public string LogoDocumentos { get; set; }
+        public int MyProperty { get; set; }
 
         #endregion
 

@@ -27,7 +27,7 @@ namespace DIST.SUIST.BL
             try
             {
                 UsuarioBE oUsuario =  oSeguridadDA.ValidarUsuario(objUsuario);
-                oUsuario.Empresa = oEmpresaDA.ObtenerEmpresa(oUsuario.IdEmpresa);
+                //oUsuario.Empresa = oEmpresaDA.ObtenerEmpresa(oUsuario.IdEmpresa);
                 return oUsuario;
             }
             catch (Exception ex)
